@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'wallet' => [
+        'url' => env('WALLET_SERVICE_URL', 'http://127.0.0.1:8000'),
+        'gate_name' => env('WALLET_GATE_NAME', 'ethereum'),
+    ],
+
 ];
